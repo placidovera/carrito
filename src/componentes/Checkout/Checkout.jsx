@@ -17,11 +17,14 @@ const Checkout = () => {
 
   const { carrito, vaciarCarrito, total } = useContext(CarritoContext);
 
-  // Función para abrir WhatsApp con mensaje
-  const enviarWhatsApp = (numero, mensaje) => {
+
+const enviarWhatsApp = (numero, mensaje) => {
+  setTimeout(() => {
     const texto = encodeURIComponent(mensaje);
     window.open(`https://wa.me/${numero}?text=${texto}`, "_blank");
-  };
+  }, 3000); 
+};
+
 
   const manejadorFormulario = async (event) => {
     event.preventDefault();
