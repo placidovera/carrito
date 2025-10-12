@@ -4,18 +4,18 @@
   font-family: 'Rajdhani', sans-serif;
 }
 .custom-navbar {
-  background-color: blue; 
+  background-color:#D2277E;
   padding: 0.8rem 1.5rem;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #D2277E4D;
   
 }
 .text-fluor:hover {
-  color: white;
+  color: #1E1E3C33;
 }
 .text-fluor {
-  color: red;
+  color: white;
   text-decoration: none;
-
+font-size: 2rem;
 }
 ul {
   min-width: 450px;

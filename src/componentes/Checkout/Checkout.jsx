@@ -52,7 +52,7 @@ const enviarWhatsApp = (numero, mensaje) => {
     };
 
     try {
-      // Actualizar stock usando transacciones
+      
       await Promise.all(
         orden.items.map(async (productoOrden) => {
           const productoRef = doc(db, "productos", productoOrden.id);
@@ -74,19 +74,18 @@ const enviarWhatsApp = (numero, mensaje) => {
         })
       );
 
-      // Crear la orden en Firestore
       const docRef = await addDoc(collection(db, "ordenes"), orden);
       setOrdenId(docRef.id);
       vaciarCarrito();
       setShowConfetti(true);
 
-      // Abrir WhatsApp automáticamente con detalles de la orden
+  
       let mensajeWhatsApp = `Nueva orden #${docRef.id} de ${nombre} ${apellido}.\nDirección: ${direccion}\nTotal: $${total}\nProductos:\n`;
       orden.items.forEach((item) => {
         mensajeWhatsApp += `- ${item.nombre}: ${item.descripcion} x${item.cantidad} ($${item.precio})\n`;
       });
 
-      enviarWhatsApp("543434577393", mensajeWhatsApp); // reemplaza con tu número
+      enviarWhatsApp("543434577393", mensajeWhatsApp); 
     } catch (err) {
       console.log("Error al crear la orden:", err);
       setError(typeof err === "string" ? err : "Se produjo un error al crear la orden!");

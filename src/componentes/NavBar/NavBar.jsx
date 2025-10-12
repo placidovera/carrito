@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className="container-fluid">
           <strong>
             <Link to="/" className="text-fluor">
-             ELIXIR
+            CARRITO
             </Link>
           </strong>
           <div
@@ -23,18 +23,18 @@ const NavBar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/categoria/botellas" className="text-fluor">
-                  Botellas
+                <NavLink to="/categoria/cosmeticos" className="text-fluor">
+                Cosmeticos
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/categoria/latas" className="text-fluor">
-                  latas
+                  Maquillajes
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink to="/categoria/combos" className="text-fluor">
-                  Combos
+                  Cremas
                 </NavLink>
                  </li>
             </ul>

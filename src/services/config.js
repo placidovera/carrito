@@ -18,22 +18,46 @@ export const db = getFirestore(app);
 export const misProductos = [
 
 {
-  nombre: "Fernet Branca",
-  precio: 15000,
-  stock: 102,
-  img: "/imagenes/branca.png",
-  idCat: "botellas",
-  descripcion: "Fernet Branca | Peso Neto: 1.203 kg | Volumen: 750 ml | Amaro italiano elaborado con más de 27 hierbas y especias provenientes de cuatro continentes. Su sabor es intenso, amargo y herbal, ideal para disfrutar solo o con gaseosa cola."
+  "nombre": "Mary Kay TimeWise Set",
+  "precio": 20000,
+  "stock": 200,
+  "img": "/imagenes/times.png",
+  "idCat": "promos",
+  "descripcion": "Mary Kay TimeWise | Set de cuidado facial con fórmulas anti-edad. Incluye cremas hidratantes y limpiadoras que ayudan a reducir la apariencia de líneas de expresión y mejorar la firmeza de la piel. Ideal para una rutina diaria de rejuvenecimiento facial."
+},
+{
+  "nombre": "Mary Kay Oil-Free Eye Makeup Remover",
+  "precio": 30000,
+  "stock": 300,
+  "img": "/imagenes/remover.png",
+  "idCat": "cosmeticos",
+  "descripcion": "Mary Kay Oil-Free Eye Makeup Remover | Desmaquillante bifásico libre de aceite, suave con la piel y efectivo para remover maquillaje resistente al agua. Ideal para el área delicada de los ojos. Contenido neto: 110 mL."
+},
+{
+  "nombre": "Mary Kay TimeWise Age Minimize 3D Revitalizing Sculpting Cream",
+  "precio": 20000,
+  "stock": 250,
+  "img": "/imagenes/timewise.png",
+  "idCat": "cosmeticos",
+  "descripcion": "Mary Kay TimeWise Age Minimize 3D Revitalizing Sculpting Cream | Crema reafirmante y revitalizante que ayuda a mejorar la elasticidad y firmeza de la piel. Su fórmula avanzada hidrata profundamente y reduce la apariencia de líneas finas y arrugas. Contenido neto: 48 g."
+},
+{
+  "nombre": "Mary Kay TimeWise Age Minimize 3D",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat": "cosmeticos",
+  "descripcion": "Mary Kay TimeWise Age Minimize 3D | Crema facial anti-edad que ayuda a reducir líneas de expresión y mejorar la elasticidad de la piel. Formulada con antioxidantes y péptidos para una piel más firme, suave y luminosa."
+},
+{
+  "nombre": "Mary Kay TimeWise Day Solution Sunscreen SPF 30",
+  "precio": 50000,
+  "stock": 300,
+  "img": "/imagenes/solution.png",
+  "idCat": "cosmeticos",
+  "descripcion": "Mary Kay TimeWise Day Solution Sunscreen SPF 30 | Fluido facial de día con protección solar de amplio espectro (SPF 30). Ayuda a prevenir los signos visibles del envejecimiento y protege la piel contra los rayos UVA/UVB. Textura ligera y rápida absorción. Contenido neto: 29 mL."
 },
 
-{ 
-  nombre: "Gancia", 
-  precio: 17000, 
-  stock: 200, 
-  img: "/imagenes/ganciaSprite.png", 
-  idCat: "promos",
-   descripcion: "Aperitivo Gancia Unidades:1| Peso Neto: 1.203 kg | Volumen: 750 ml |Gaseosas Sprite Unidades:2| Peso Neto: 1.5 kg | Volumen: 1500 ml"
-},
 ];
 
 import { collection,doc,writeBatch } from "firebase/firestore";

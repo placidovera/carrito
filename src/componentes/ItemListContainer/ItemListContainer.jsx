@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import { db } from "../../services/config";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import ItemList from "../ItemList/ItemList";
-// import "../ItemListContainer/ItemListContainer.css";
+import "../ItemListContainer/ItemListContainer.css";
 import { useParams } from "react-router-dom";
 // import Loader from "../Loader/Loader";
 
-const ItemListContainer = (props) => {
+const ItemListContainer = ({texto}) => {
   const [productos, setProductos] = useState([]);
   const [loading, setLoading] = useState(false);
 
@@ -36,6 +36,7 @@ const ItemListContainer = (props) => {
 
   return (
     <>
+    <h1 className="titulo-motivador">{texto}</h1>
       <ItemList productos={productos} />
     </>
   );

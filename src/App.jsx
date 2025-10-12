@@ -5,13 +5,15 @@ import NavBar from "./componentes/NavBar/NavBar";
 import { CarritoProvider } from "./componentes/context/CarritoContext";
 import Cart from "./componentes/Cart/Cart";
 import Checkout from "./componentes/Checkout/Checkout";
+import carritoImg from '/imagenes/mary.png';
+
 const App = () => {
   return (
    <BrowserRouter>
     <CarritoProvider>
  <NavBar />
     <Routes>
-      <Route path="/" element={  <ItemListContainer texto="Delivery 24 hs." />}></Route>
+     <Route path="/"element={<ItemListContainer texto={<img src={carritoImg} alt="Carrito" style={{ width: '300px' }} />} />}/>
       <Route path="/categoria/:idCategoria" element={<ItemListContainer />}></Route>
       <Route path="/item/:idItem/" element={<ItemDetailContainer />}></Route>
       <Route path="/cart" element={<Cart/>}></Route>

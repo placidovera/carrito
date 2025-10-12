@@ -4,7 +4,7 @@
  import { CarritoContext } from "../context/CarritoContext"
 
 const CartWidget = () => {
-    const imagCarrito ="https://thumbs.dreamstime.com/b/icono-de-las-compras-del-carro-la-compra-en-fondo-oscuro-116659167.jpg"
+    const imagCarrito ="/imagenes/carrito.png"
     const{cantidadTotal}=useContext(CarritoContext)
 
   return (

@@ -16,12 +16,12 @@ const ItemCount = ({inicial,stock,funcionAgregar}) => {
   };
 
   return (
-    <>
-      <button onClick={incrementar}>+</button>
-      <p>{contador}</p>
-      <button onClick={decrementar}>-</button>
-      <button onClick={()=> funcionAgregar(contador)}>Agregar al carrito</button>
-    </>
+ <div style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: "10px" }}>
+   <button className="item-button" onClick={decrementar}>-</button>
+    <p style={{ color: 'black', paddingTop: '5px' }}>{contador}</p>
+    <button className="item-button" onClick={incrementar}>+</button>
+  <button className="item-button" onClick={() => funcionAgregar(contador)}>Agregar al carrito</button>
+</div>
   );
 };
 
