@@ -9,7 +9,7 @@ h1 {
   font-size: 2.5rem;
   margin-top: 2rem;
   color: #D2277E;
-  text-shadow: 0 0 10px #D4AF37;
+  text-shadow: 0 0 10px #D2277E;
 }
 
 form {
@@ -29,13 +29,13 @@ label {
   font-size: 1rem;
   margin-bottom: 0.3rem;
   color:#D2277E;
+  font-weight: bold;
 }
 
 input {
   width: 100%;
   padding: 0.8rem;
   font-size: 1rem;
-  background: #111;
   border: 1px solid #D2277E;
   border-radius: 8px;
   color:#D2277E;
@@ -48,19 +48,20 @@ input {
 button {
   padding: 0.8rem 1.2rem;
   font-size: 1rem;
-  background: #D4AF37;
+  background: #D2277E;
   color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 0 10px #00ffe7;
+  box-shadow: 0 4px 10px rgba(210, 39, 126, 0.3);
   text-decoration: none;
+  font-weight: bold;
 }
 
 button:hover {
   background: #0f0f0f;
-  border: 1px solid #00ffe7;
+  border: 1px solid #F48CBE;
 }
 
 

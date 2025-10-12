@@ -13,7 +13,7 @@
 }
 
 .item-img {
-  width: 220px;
+  width: 320px;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
@@ -81,7 +81,7 @@
 }
 
 .item-button:hover {
-  background-color: #00ffff;
+  background-color: black;
   transform: scale(1.05);
 }
 .link-carrito {
@@ -90,7 +90,7 @@
   margin-bottom: 10px;     
   display: inline-block;  
   font-weight: bold; 
-  color:#39ff14;
+  color:#E85CA3;
   transition: all 0.3s ease;
   transform-origin: center;  
   margin-left: 20px;

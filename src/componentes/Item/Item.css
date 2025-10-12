@@ -1,5 +1,5 @@
 .col-dos {
-  background-color:#D2277E;
+  background-color:#F48CBE;
   border: 2px solid #D2277E4D;
   border-radius: 10px;
   padding: 10px;
@@ -26,9 +26,8 @@
 }
 
 .col-dos button {
-  background-color: wheat;
+  background-color: #D2277E;
   border: none;
-  color: #000;
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -36,7 +35,7 @@
 }
 
 .col-dos button:hover {
-  background-color: #00ffff;
+  background-color: black;
   transform: scale(1.05);
 }
 .col-dos img{

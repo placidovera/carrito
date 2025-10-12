@@ -4,7 +4,7 @@ import { collection, getDocs, query, where } from "firebase/firestore";
 import ItemList from "../ItemList/ItemList";
 import "../ItemListContainer/ItemListContainer.css";
 import { useParams } from "react-router-dom";
-// import Loader from "../Loader/Loader";
+import Loader from "../Loader/Loader";
 
 const ItemListContainer = ({texto}) => {
   const [productos, setProductos] = useState([]);
@@ -37,7 +37,7 @@ const ItemListContainer = ({texto}) => {
   return (
     <>
     <h1 className="titulo-motivador">{texto}</h1>
-      <ItemList productos={productos} />
+    {loading ? <Loader/>:<ItemList productos={productos} />}
     </>
   );
 };

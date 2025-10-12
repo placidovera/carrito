@@ -35,21 +35,25 @@ const enviarWhatsApp = (numero, mensaje) => {
       return;
     }
 
-    const orden = {
-      nombre,
-      apellido,
-      telefono,
-      direccion,
-      items: carrito.map((producto) => ({
-        id: producto.item.id,
-        nombre: producto.item.nombre,
-        descripcion: producto.item.descripcion || "",
-        cantidad: producto.cantidad,
-        precio: producto.item.precio,
-      })),
-      total,
-      fecha: new Date(),
-    };
+   // Generar la orden de compra
+const orden = {
+  nombre: nombre?.trim() || "",
+  apellido: apellido?.trim() || "",
+  telefono: telefono?.trim() || "",
+  direccion: direccion?.trim() || "",
+  items: carrito.map((producto) => ({
+    key: producto.item.id, 
+    id: producto.item.id,
+    nombre: producto.item.nombre,
+    descripcion: producto.item.descripcion || "",
+    cantidad: producto.cantidad,
+    precio: producto.item.precio,
+    subtotal: producto.item.precio * producto.cantidad, 
+  })),
+  total: total || 0,
+  fecha: new Date().toLocaleString(),
+};
+
 
     try {
       
@@ -159,7 +163,7 @@ const enviarWhatsApp = (numero, mensaje) => {
         </Link>
 
         {ordenId && (
-          <strong style={{ color: "white" }}>
+          <strong style={{ color: "black" }}>
             Gracias por su compra!! Su número de orden es: {ordenId}
           </strong>
         )}
