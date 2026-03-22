@@ -223,42 +223,203 @@ export const misProductos = [
   "precio": 25000,
   "stock": 150,
   "img": "/imagenes/espumaLimpiadora.jpg",
-  "idCat": "",
+  "idCat": "Cuidado de la Piel",
   "descripcion": "Limpiador cremoso que se transforma en espuma densa y espesa que deja la piel limpia de impurezas y contaminación (incluido el Material Particulado PM 2.5). Ayuda a eliminar la suciedad, las impurezas, los residuos de maquillaje y el exceso de grasa de forma eficaz, fácil y rápida sin dejar la piel seca.Fórmula patentada que acondiciona suavemente la piel. 125 ml"
 },{
   "nombre": "Tónico Suavizante Renovador",
   "precio": 25000,
   "stock": 150,
   "img": "/imagenes/tonicoAnticaida.jpg",
-  "idCat": "",
+  "idCat": "Cuidado de la Piel",
   "descripcion": "Tónico especialmente formulado para ayudar a tratar los signos visibles de una piel seca, el cual fortalece el sistema de soporte de la piel y ayuda a minimizar las líneas visibles de expresión.Ayuda a estabilizar y fortalecer el microbioma de la piel manteniéndola en equilibrio al mismo tiempo que mantiene y fortalece la barrera de humectación de la piel.Contiene ingredientes relajantes que suavizan y ayudan a recuperar una piel con apariencia más juvenil.200 ml"
 },{
   "nombre": "Crema de Reactivación Renovadora para ojos",
   "precio": 25000,
   "stock": 150,
   "img": "/imagenes/cremaOjos.jpg",
-  "idCat": "",
+  "idCat": "Cuidado de la Piel",
   "descripcion": "Crema de Reactivación que reafirma y levanta y con el uso frecuente, tonifica visiblemente la piel alrededor del área de los ojos además ayuda a reducir la apariencia de líneas finas y signos visibles de la edad (líneas de expresión, pérdida de firmeza, resequedad, ojeras). Ofrece protección antioxidante gracias a que contiene granada cultivada de la marca Nutrilite™.15 ml"
 },{
+  "nombre": "Crema de Reactivación Renovadora",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/cremaReactivacion.jpg",
+  "idCat": "Cuidado de la Piel",
+  "descripcion": "Crema enriquecida para complementar las necesidades claves de tu piel y dejarla visiblemente bien cuidada ayudándola a reducir los factores estresantes, revitalizándola y devolviéndole una apariencia más juvenil.50 ml"
+},{
+  "nombre": "Crema Hidratante",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/gelRostro.jpg",
+  "idCat": "Cuidado de la Piel",
+  "descripcion": "Nuestra avanzada fórmula hidratante nutre y relaja la piel. Ayuda a prevenir los signos visibles de la edad, como las líneas de expresión, la falta de brillo, la textura deficiente y el tono desigual de la piel."
+},{
+  "nombre": "Agua Micelar - Desmaquillante y Limpiador",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/aguaMicelar.jpg",
+  "idCat": "Cuidado de la Piel",
+  "descripcion": "El Agua Micelar sin fragancia ayuda a remover inmediatamente todo tipo de maquillaje, incluidos los de larga duración y a prueba de agua.Al ser tan eficaz, actúa sin frotar excesivamente la piel, lo que ayuda a evitar la irritación. Funciona con todo tipo de maquillaje de ojos, labios y rostro. No deja residuos oleosos, incluso acondiciona tus pestañas. La fórmula no requiere enjuague."
+},{
+  "nombre": "Limpiador Nivelador en Gel",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/gelLimpiador.jpg",
+  "idCat": "Cuidado de la Piel",
+  "descripcion": "Esta fórmula elimina el exceso de grasa superficial que puede obstruir los poros.Su acción de limpieza profunda puede ayudar a mantener tu piel libre de imperfecciones dejando la sensación refrescante.beGel transparente, con un toque iridiscente que se convierte en espuma abundante y refrescante que limpia en profundidad los poros.Purifica y libera la piel del exceso de grasa, los restos de maquillaje, la suciedad, la contaminación y otras impurezas que pueden adherirse con mayor frecuencia a la piel grasa.El Limpiador Nivelador en Gel Artistry Skin Nutrition ha demostrado clínicamente que elimina la contaminación y las impurezas irritantes (incluidas las PM 2,5) de la piel.Esto ayuda a detener el inicio de la irritación antes de que pueda comenzar y ayuda a mantener la barrera de defensa de la piel en un estado más estable.Tipo de piel: grasa o normal a grasa"
+},{
+  "nombre": "Tri Iron Folic - Combina hierro y vitamina C",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/vitaminaC.jpg",
+  "idCat": "Suplementos Nutricionales",
+  "descripcion": "Una combinación de 3 nutrientes esenciales: ácido fólico, 3 fuentes de hierro y vitamina C. Además, el Tri-Iron Folic contiene concentrado de espinaca Nutrilite, una importante fuente de fitonutrientes.90 pastillas"
+},{
+  "nombre": "HSN - Nutrición para cabello, piel y uñas",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/hsnPiel.jpg",
+  "idCat":"Suplementos Nutricionales",
+  "descripcion": "Su fórmula contiene L-cisteína, un aminoácido que promueve la formación de queratina. Además contiene colágeno hidrolizado, biotina, extracto de semilla de uva y vitamina C que participan en la humectación de la piel. Es una combinación única de ingredientes que ayudan a nutrir el cabello, la piel y las uñas.60 pastillas"
+},{
+  "nombre": "Multicaroteno",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/multicaroteno.jpg",
+  "idCat": "Suplementos Nutricionales",
+  "descripcion": "Exclusiva fórmula con combinación de nutrientes como alfa y betacarotenos, luteína y zeaxantina que no son producidos por tu cuerpo. Ideal para quienes quieren aumentar el consumo de estos nutrientes de frutas y vegetales de la gama de color amarillo y naranja.90 cápsulas blandas"
+},{
+  "nombre": "Vitamina B Plus - Potencia tu energía",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/vitaminaB.jpg",
+  "idCat": "Suplementos Nutricionales",
+  "descripcion": "Su tableta bicapa de liberación dual provee 8 horas de soporte. Cuenta con una tecnología de liberación inmediata de vitaminas B2 y B12 y una tecnología de liberación prolongada para las vitaminas B1, B3, B5, B6, B7 y B9 las cuales se liberan de forma gradual, lenta y constante, permitiendo que se absorban eficientemente.Ayuda a combatir la fatiga relacionada con una baja ingesta de ocho vitaminas B esenciales para el organismo.60 pastillas"
+},{
+  "nombre": "Proteína Vegetal en Polvo",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/proteina.jpg",
+  "idCat":"Suplementos Nutricionales",
+  "descripcion": "Proteína 100% de origen vegetal que contiene proteína aislada de soya, trigo y arvejas. La proteína es un macronutriente que nuestro cuerpo necesita diariamente. Cada porción contiene 8 gramos de proteína y 9 aminoácidos esenciales.Proteína 100% vegetalTarro de 450 g "
+},{
+  "nombre": "Cal Mag D Advanced",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/calcio.jpg",
+  "idCat":"Suplementos Nutricionales",
+  "descripcion": "Aporta dos tipos de calcio: el del carbonato de calcio y el obtenido de algas marinas calcificadas, una de las fuentes más ricas de calcio. Además, este suplemento contiene vitamina D y magnesio, que favorecen la absorción del calcio. Enriquecido con zinc y manganeso.90 pastillas"
+},{
+  "nombre": "Daily Plus",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat": "Suplementos Nutricionales",
+  "descripcion": "Suplemento alimenticio de uso diario que contiene 12 vitaminas, 10 minerales y concentrados de plantas que juegan un importante papel en el funcionamiento diario de nuestro cuerpo.90 pastillas"
+},{
   "nombre": "",
   "precio": 25000,
   "stock": 150,
   "img": "/imagenes/minimize.png",
-  "idCat": "",
+  "idCat": "Suplementos Nutricionales",
   "descripcion": ""
 },{
   "nombre": "",
   "precio": 25000,
   "stock": 150,
   "img": "/imagenes/minimize.png",
-  "idCat": "",
+  "idCat":"Suplementos Nutricionales",
   "descripcion": ""
 },{
   "nombre": "",
   "precio": 25000,
   "stock": 150,
   "img": "/imagenes/minimize.png",
-  "idCat": "",
+  "idCat": "Suplementos Nutricionales",
+  "descripcion": ""
+},{
+  "nombre": "",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat":"Suplementos Nutricionales",
+  "descripcion": ""
+},{
+  "nombre": "",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat":"Suplementos Nutricionales",
+  "descripcion": ""
+},{
+  "nombre": "",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat": "Suplementos Nutricionales",
+  "descripcion": ""
+},{
+  "nombre": "",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat": "Suplementos Nutricionales",
+  "descripcion": ""
+},{
+  "nombre": "",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat":"Suplementos Nutricionales",
+  "descripcion": ""
+},{
+  "nombre": "",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat": "Cuidado de la Piel",
+  "descripcion": ""
+},{
+  "nombre": "",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat": "Cuidado de la Piel",
+  "descripcion": ""
+},{
+  "nombre": "",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat": "Cuidado de la Piel",
+  "descripcion": ""
+},{
+  "nombre": "",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat": "Cuidado de la Piel",
+  "descripcion": ""
+},{
+  "nombre": "",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat": "Cuidado de la Piel",
+  "descripcion": ""
+},{
+  "nombre": "",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat": "Cuidado de la Piel",
+  "descripcion": ""
+},{
+  "nombre": "",
+  "precio": 25000,
+  "stock": 150,
+  "img": "/imagenes/minimize.png",
+  "idCat": "Cuidado de la Piel",
   "descripcion": ""
 },
 
