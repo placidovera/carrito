@@ -1,16 +1,25 @@
 .titulo-motivador {
-  color: #D2277E;
-  font-family: 'Rajdhani', sans-serif;
-  font-weight: 800;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-shadow: 0 0 8px #D2277E4D, 0 0 15px #D2277E4D;
+  color: #003a8f; 
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  text-transform: none; 
+  letter-spacing: 0.5px;
   text-align: center;
   margin: 30px 0;
-  animation: pulso 2s infinite;
+  position: relative;
+}
+
+.titulo-motivador::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #0056d6;
+  margin: 10px auto 0;
+  border-radius: 2px;
 }
 
 body {
- background-color: #D3D3D3;
+  background-color: #f5f7fa; 
 }
