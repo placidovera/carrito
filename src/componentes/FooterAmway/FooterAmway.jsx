@@ -12,12 +12,14 @@ const FooterAmway = () => {
               Descubre oportunidades únicas, crecimiento personal y profesional,
               y una comunidad que te acompaña en cada paso.
             </p>
-            <a 
-              href="/contacto" 
-              className="btn btn-warning btn-lg text-dark fw-bold"
-            >
-              Únete Ahora
-            </a>
+           <a
+  href="https://wa.me/543434577393?text=¡Hola!%20Quiero%20unirme%20al%20equipo%20Amway"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btn-warning btn-lg text-dark fw-bold"
+>
+  Únete Ahora
+</a>
           </div>
 
           {/* Imagen o ilustración */}
