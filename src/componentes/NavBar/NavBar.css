@@ -16,7 +16,7 @@
 .text-fluor {
   color: #003a8f; /* azul corporativo */
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-weight: 600;
   transition: color 0.3s ease;
 }
@@ -27,7 +27,7 @@
 
 /* LISTA */
 ul {
-  min-width: 450px;
+  min-width: 350px;
   margin: 1.5rem auto;
   padding: 1.5rem;
   list-style: none;
