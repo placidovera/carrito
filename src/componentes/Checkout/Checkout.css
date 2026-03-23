@@ -8,8 +8,8 @@ h1 {
   text-align: center;
   font-size: 2.5rem;
   margin-top: 2rem;
-  color: #D2277E;
-  text-shadow: 0 0 10px #D2277E;
+  color: #0056d6;
+  text-shadow: 0 0 10px #007bff;
 }
 
 form {
@@ -20,15 +20,15 @@ form {
   margin: 2rem auto;
   padding: 2rem;
   background:wheat;
-  border: 1px solid #D2277E;
+  border: 1px solid #0056d6;
   border-radius: 12px;
-  box-shadow: 0 0 20px #00ffe733;
+  box-shadow: 0 0 20px #007bff;
 }
 
 label {
   font-size: 1rem;
   margin-bottom: 0.3rem;
-  color:#D2277E;
+  color:#0056d6;
   font-weight: bold;
 }
 
@@ -36,11 +36,11 @@ input {
   width: 100%;
   padding: 0.8rem;
   font-size: 1rem;
-  border: 1px solid #D2277E;
+  border: 1px solid #0056d6;
   border-radius: 8px;
-  color:#D2277E;
+  color:#0056d6;
   outline: none;
-  box-shadow: inset 0 0 5px #00ffe755;
+  box-shadow: inset 0 0 5px #007bff;
   resize: vertical;
 }
 
@@ -48,7 +48,7 @@ input {
 button {
   padding: 0.8rem 1.2rem;
   font-size: 1rem;
-  background: #D2277E;
+  background: #0056d6;
   color: white;
   border: none;
   border-radius: 8px;
@@ -61,7 +61,7 @@ button {
 
 button:hover {
   background: #0f0f0f;
-  border: 1px solid #F48CBE;
+  border: 1px solid #007bff;
 }
 
 

@@ -69,7 +69,7 @@
   line-height: 1.4;
 }
 .item-button {
-  background-color:#D2277E;
+  background-color:#0056d6;
   color: white;
   border: none;
   border-radius: 8px;
@@ -81,7 +81,7 @@
 }
 
 .item-button:hover {
-  background-color: black;
+  background-color: #007bff;
   transform: scale(1.05);
 }
 .link-carrito {
@@ -90,7 +90,7 @@
   margin-bottom: 10px;     
   display: inline-block;  
   font-weight: bold; 
-  color:#E85CA3;
+  color:#0056d6;
   transition: all 0.3s ease;
   transform-origin: center;  
   margin-left: 20px;

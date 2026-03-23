@@ -110,7 +110,7 @@ export const misProductos = [
     "descripcion": "De rápida absorción, revitaliza al instante, proporcionándote un cabello manejable y brillante que luce y se siente sedoso, ayudando a reparar el cabello dañado y las puntas abiertas.",
     "idCat": "Cuidado del Cabello",
     "img": "/imagenes/sueroCapilar.jpg",
-    "precio": 25000,
+    "precio": 51.800,
     "stock": 150
   },
   {
@@ -142,7 +142,7 @@ export const misProductos = [
     "descripcion": "Producto 2 en 1 que brinda triple barrera de protección. Ayuda a suavizar mientras limpia cuidadosamente la delicada piel del bebé, de la cabeza a los pies.400 ml",
     "idCat": "Cuidado Corporal",
     "img": "/imagenes/gelDucha.jpg",
-    "precio": 25000,
+    "precio": 30.387,
     "stock": 150
   },
   {
@@ -228,7 +228,7 @@ export const misProductos = [
     "descripcion": "Revitaliza el cuero cabelludo y fortalece el cabello desde la raíz, ayudando a prevenir la caída por quiebre*. En un mes tu cabello lucirá más abundante, al mismo tiempo, mejora la hidratación del cuero cabelludo, creando el ambiente ideal para un cabello más fuerte. *Por causas no asociadas a enfermedades o terapéuticas.120 ml",
     "idCat": "Cuidado del Cabello",
     "img": "/imagenes/tonicoAnticaida.jpg",
-    "precio": 68.600,
+    "precio": 68.601,
     "stock": 150
   },
   {
@@ -252,7 +252,7 @@ export const misProductos = [
     "descripcion": "Diseñado para brindar una protección natural y segura para pieles extremadamente sensibles al sol.",
     "idCat": "Cuidado Corporal",
     "img": "/imagenes/protectorSolar.jpg",
-    "precio": 25000,
+    "precio": 67.828,
     "stock": 150
   },
   {
@@ -332,7 +332,7 @@ export const misProductos = [
     "descripcion": "Nutrilite Collagen +C contiene colágeno hidrolizado, además de una combinación de vitamina C, procedente del ácido ascórbico y de la acerola. También contiene ácido pantoténico, biotina, selenio y zinc. Suplemento alimenticio en polvo para preparar una deliciosa bebida con sabor frutos mixtos. Envase con 150 g",
     "idCat": "Suplementos Nutricionales",
     "img": "/imagenes/colageno.jpg",
-    "precio": 25000,
+    "precio": 105.000,
     "stock": 150
   },
   {
@@ -340,7 +340,7 @@ export const misProductos = [
     "descripcion": "Crema de Reactivación que reafirma y levanta y con el uso frecuente, tonifica visiblemente la piel alrededor del área de los ojos además ayuda a reducir la apariencia de líneas finas y signos visibles de la edad (líneas de expresión, pérdida de firmeza, resequedad, ojeras). Ofrece protección antioxidante gracias a que contiene granada cultivada de la marca Nutrilite™. 15 ml",
     "idCat": "Cuidado de la Piel",
     "img": "/imagenes/cremaOjos.jpg",
-    "precio": 105.000,
+    "precio": 141.832,
     "stock": 150
   },
   {
@@ -430,5 +430,5 @@ try{
   console.error("Error subiendo productos:", error.message);
 }
 };
-subirProductos()
+// subirProductos()
 

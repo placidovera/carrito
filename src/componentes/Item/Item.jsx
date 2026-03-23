@@ -7,7 +7,7 @@ const Item = ({ id, nombre, precio, img ,stock}) => {
       <div className="col-dos h-100 text-center">
         <img src={img} alt={nombre} />
         <h3>{nombre}</h3>
-        <p>Precio: $ {precio}</p>
+        <p>$ {precio}</p>
         <Link to={`/item/${id}`}>
           <button>Ver Detalles</button>
         </Link>

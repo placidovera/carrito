@@ -5,7 +5,8 @@ import NavBar from "./componentes/NavBar/NavBar";
 import { CarritoProvider } from "./componentes/context/CarritoContext";
 import Cart from "./componentes/Cart/Cart";
 import Checkout from "./componentes/Checkout/Checkout";
-import carritoImg from '/imagenes/mary.png';
+import carritoImg from '/imagenes/logo.jpg';
+import FooterAmway from "./componentes/FooterAmway/FooterAmway";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path="/cart" element={<Cart/>}></Route>
       <Route path="/checkout" element={<Checkout/>}></Route>
     </Routes>
+    <FooterAmway/>
    </CarritoProvider>
 </BrowserRouter>
   );
