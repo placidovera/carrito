@@ -62,7 +62,7 @@ export const misProductos = [
     "descripcion": "Esta herramienta de acción múltiple con cerdas suaves ayuda a eliminar la placa, limpiar los dientes, la lengua y masajear las encías. Una parte esencial de tu rutina diaria de cuidado bucal.4 unidades",
     "idCat": "Cuidado Oral",
     "img": "/imagenes/cepillos.jpg",
-    "precio": 33.875,
+    "precio": 24.875,
     "stock": 150
   },
   {
@@ -118,7 +118,7 @@ export const misProductos = [
     "descripcion": "Nueva fórmula de acción múltiple libre de parabenos y con una mezcla mejorada de sabor a menta certificada por Nutrilite™ ayuda a combatir las caries, ayuda a eliminar la placa, promueve la remineralización, ayuda a fortalecer y proteger el esmalte. Además limpia y refresca el aliento de forma segura cada vez que te cepillas los dientes. Una parte esencial de tu rutina diaria de cuidado bucal",
     "idCat": "Cuidado Oral",
     "img": "/imagenes/pasta.jpg",
-    "precio":16.879,
+    "precio":15.000,
     "stock": 200
   },
   {
@@ -158,7 +158,7 @@ export const misProductos = [
     "descripcion": "El jabón en barra para dividirse en 3 partes con ceramida derivada del aceite de oliva y aceite de chía blanca limpia suavemente mientras mejora la tez de la piel. Fórmula biodegradable. Barra de 250 g (9 oz.) con 3 piezas",
     "idCat": "Cuidado Corporal",
     "img": "/imagenes/barraJabon.jpg",
-    "precio": 25.295,
+    "precio": 15.295,
     "stock": 150
   },
   {
@@ -170,7 +170,7 @@ export const misProductos = [
     "stock": 300
   },{
   "nombre": "Crema para Pies Renovadora",
-  "precio":33.212,
+  "precio":24.212,
   "stock": 150,
   "img": "/imagenes/cremaPies.jpg",
   "idCat": "Cuidado Corporal",
@@ -180,7 +180,7 @@ export const misProductos = [
     "descripcion": "El gel de baño exfoliante diario con agua de complejo de bambú, ceramida derivada del aceite de oliva, acerola verde y exfoliantes naturales, ayuda a eliminar suavemente las impurezas y las células muertas de la piel, dejándola con una sensación de frescura e hidratación. Fórmula biodegradable.400 ml",
     "idCat": "Cuidado Corporal",
     "img": "/imagenes/gelExfoliante.jpg",
-    "precio": 43.685,
+    "precio": 29.685,
     "stock": 150
   },
   {
@@ -188,7 +188,7 @@ export const misProductos = [
     "descripcion": "Exclusiva fórmula con combinación de nutrientes como alfa y betacarotenos, luteína y zeaxantina que no son producidos por tu cuerpo. Ideal para quienes quieren aumentar el consumo de estos nutrientes de frutas y vegetales de la gama de color amarillo y naranja.90 cápsulas blandas",
     "idCat": "Suplementos Nutricionales",
     "img": "/imagenes/multicaroteno.jpg",
-    "precio":64.820,
+    "precio":44.820,
     "stock": 150
   },
   {
@@ -252,7 +252,7 @@ export const misProductos = [
     "descripcion": "Diseñado para brindar una protección natural y segura para pieles extremadamente sensibles al sol.",
     "idCat": "Cuidado Corporal",
     "img": "/imagenes/protectorSolar.jpg",
-    "precio": 67.828,
+    "precio": 47.828,
     "stock": 150
   },
   {
@@ -260,7 +260,7 @@ export const misProductos = [
     "descripcion": "Obtén un aliento refrescante, instantáneo y duradero con cada rociado de este spray esencial para llevar a cualquier parte. Dosificador sin aerosol de 14 ml",
     "idCat": "Cuidado Oral",
     "img": "/imagenes/spray.jpg",
-    "precio": 67.828,
+    "precio": 9.828,
     "stock": 250
   },
   {
@@ -292,7 +292,7 @@ export const misProductos = [
     "descripcion": "El jabón antibacterial de manos, que no reseca, está formulado con agua de palmera de cica, romero y té verde, efectivo contra los gérmenes más comunes, manteniendo las manos limpias y frescas. Fórmula con biodegradabilidad demostrada. 250 ml",
     "idCat": "Cuidado Corporal",
     "img": "/imagenes/jabonLiquidoManos.jpg",
-    "precio":30.438,
+    "precio":24.438,
     "stock": 150
   },
   {
@@ -300,7 +300,7 @@ export const misProductos = [
     "descripcion": "Roll-on antitranspirante de secado rápido con complejo cica agua, romero y té verde que aporta protección contra el olor y la humedad de las axilas sin dejar manchas blancas.100 ml",
     "idCat": "Cuidado Corporal",
     "img": "/imagenes/desodoranteAnti.jpg",
-    "precio": 13.565,
+    "precio": 10.565,
     "stock": 150
   },
   {
@@ -332,7 +332,7 @@ export const misProductos = [
     "descripcion": "Nutrilite Collagen +C contiene colágeno hidrolizado, además de una combinación de vitamina C, procedente del ácido ascórbico y de la acerola. También contiene ácido pantoténico, biotina, selenio y zinc. Suplemento alimenticio en polvo para preparar una deliciosa bebida con sabor frutos mixtos. Envase con 150 g",
     "idCat": "Suplementos Nutricionales",
     "img": "/imagenes/colageno.jpg",
-    "precio": 105.000,
+    "precio": 65.000,
     "stock": 150
   },
   {
@@ -356,7 +356,7 @@ export const misProductos = [
     "descripcion": "La loción corporal refrescante con agua de complejo de bambú, ceramida derivada del aceite de oliva y acerola verde brinda una explosión de hidratación y ayuda a reparar y proteger la barrera de la piel. 400 ml",
     "idCat": "Cuidado Corporal",
     "img": "/imagenes/locionCorporal.jpg",
-    "precio": 51.158,
+    "precio": 31.158,
     "stock": 150
   },
   {
@@ -364,7 +364,7 @@ export const misProductos = [
     "descripcion": "Por primera vez en el cuidado bucal Glister™, este hilo dental de acción múltiple ayuda a eliminar la placa de las superficies de los dientes, que el cepillado no puede alcanzar, mientras estimula suavemente las encías. Una parte esencial de tu rutina diaria de cuidado bucal. 2 unidades con 50 metros c/u",
     "idCat": "Cuidado Oral",
     "img": "/imagenes/hiloDental.jpg",
-    "precio": 15.495,
+    "precio": 10.495,
     "stock": 300
   },
   {
@@ -372,7 +372,7 @@ export const misProductos = [
     "descripcion": "Suplemento alimenticio de uso diario que contiene 12 vitaminas, 10 minerales y concentrados de plantas que juegan un importante papel en el funcionamiento diario de nuestro cuerpo. 90 pastillas",
     "idCat": "Suplementos Nutricionales",
     "img": "/imagenes/daily.jpg",
-    "precio": 78.960,
+    "precio": 44.960,
     "stock": 150
   },
   {
@@ -380,7 +380,7 @@ export const misProductos = [
     "descripcion":"Su fórmula quitamanchas y el delicioso aroma floral se unen para dejar tu ropa limpia y suave. La fórmula concentrada de triple acción te ayuda a usar menos detergente, y sus ingredientes no dañan tus prendas ni el planeta.",
     "idCat": "Hogar",
     "img": "/imagenes/detergenteRopa.jpg",
-    "precio":65.311,
+    "precio":45.311,
     "stock": 150
   },
     {
@@ -390,26 +390,20 @@ export const misProductos = [
     "img": "/imagenes/blanqueador.jpg",
     "precio":49.418,
     "stock": 150
-  },  {
+  },
+   {
     "nombre": "Dish Drops Lavaplatos Liquido Concentrado",
     "descripcion":"La fórmula de Dish Drops Lavaplatos Líquido Concentrado elimina la grasa y los residuos o manchas de alimentos dejando tu vajilla y utensilios de cocina limpios y relucientes.",
     "idCat": "Hogar",
     "img": "/imagenes/detergente.jpg",
-    "precio":46.643,
-    "stock": 150
-  }, {
-    "nombre": "Dish Drops Lavaplatos Liquido Concentrado",
-    "descripcion":"La fórmula de Dish Drops Lavaplatos Líquido Concentrado elimina la grasa y los residuos o manchas de alimentos dejando tu vajilla y utensilios de cocina limpios y relucientes.",
-    "idCat": "Hogar",
-    "img": "/imagenes/detergente.jpg",
-    "precio":46.643,
+    "precio":30.643,
     "stock": 150
   }, {
     "nombre": "L.O.C. Limpiador Concentrado Multiusos",
     "descripcion":"Limpiador desinfectante concentrado que extermina virus, hongos y bacterias, incluidos E. coli, salmonella y otros.",
     "idCat": "Hogar",
     "img": "/imagenes/desinfectante.jpg",
-    "precio":46.814,
+    "precio":29.814,
     "stock": 150
   },
 ];

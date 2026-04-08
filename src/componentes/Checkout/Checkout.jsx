@@ -151,7 +151,7 @@ const orden = {
         <label>Dirección</label>
         <input
           type="text"
-          placeholder="Ej: Calle Falsa 123"
+          placeholder="Ej: Ramirez 1970"
           onChange={(e) => setDireccion(e.target.value)}
         />
 
